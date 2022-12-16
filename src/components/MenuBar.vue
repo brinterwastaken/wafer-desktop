@@ -12,8 +12,10 @@ h4 {
   box-sizing: border-box;
   padding: 0.25rem;
   background: #212121aa;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(25px);
   border-bottom: 0.5px solid #ffffff2f;
+  z-index: 1;
+  position: absolute;
 }
 h4 a {
   color: #00bfff;

@@ -27,11 +27,12 @@
   justify-content: center;
 }
 #dock {
-  position: fixed;
+  position: absolute;
+  z-index: 1;
   bottom: 0.1rem;
   display: flex;
   background: #212121aa;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(25px);
   justify-content: center;
   padding: 0.25rem;
   height: 3.75rem;
