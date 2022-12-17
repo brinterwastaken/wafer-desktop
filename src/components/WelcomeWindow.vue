@@ -16,6 +16,7 @@ export default {
 <template>
   <div id="welcomewindow">
     <TitleBar :title="title" :bgcolor="bgcolor"/>
+    <h1>Welcome to Wafer Desktop!</h1>
   </div>
 </template>
 
@@ -24,16 +25,29 @@ export default {
   position: absolute;
   top: calc(50% - 17.5rem);
   left: calc(50% - 25rem);
+
   min-width: 20rem;
   min-height: 25rem;
   width: 50rem;
   height: 35rem;
-  background: #212121bf;
-  backdrop-filter: blur(25px);
   resize: both;
   overflow: auto;
+  padding: 3rem;
+  box-sizing: border-box;
+
+  background: #212121bf;
+  backdrop-filter: blur(25px);
+
   border-radius: 0.5rem;
   border: 0.5px solid #ffffff1f;
   box-shadow: 0 5px 10px #000000af;
+
+  display: flex;
+  justify-content: center;
+
+}
+h1 {
+  text-align: center;
+  line-height: 120%;
 }
 </style>

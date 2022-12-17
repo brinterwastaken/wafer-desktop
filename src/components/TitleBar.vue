@@ -11,7 +11,6 @@ export default {
 
     titlebar.onmousedown = startDrag
     document.onkeydown = (ev) => {
-      console.log(ev.key)
       if (ev.key == "Alt") {
         win.onmousedown = startDrag
       }
