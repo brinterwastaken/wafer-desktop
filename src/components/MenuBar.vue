@@ -10,7 +10,7 @@
   width: 100vw;
   box-sizing: border-box;
   padding: 0.25rem;
-  background: #212121aa;
+  background: #21212184;
   backdrop-filter: blur(25px);
   border-bottom: 0.5px solid #ffffff2f;
   z-index: 1;

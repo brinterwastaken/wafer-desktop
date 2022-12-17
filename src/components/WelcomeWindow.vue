@@ -16,15 +16,17 @@ export default {
 <template>
   <div id="welcomewindow">
     <TitleBar :title="title" :bgcolor="bgcolor"/>
-    <h1 class="windowheading">Welcome to <span class="highlight">Wafer Desktop!</span></h1>
-    <h3 class="sectiontitle">Note - this is only a concept, it is not intended to, and most likely will never be a real desktop environment</h3>
-    <h3 class="sectiontitle"><a href="https://brin.is-a.dev/gh?repo=wafer-desktop" class="highlight" target="_blank">Source Code</a></h3>
+    <div id="content">
+      <h1 class="windowheading">Welcome to <span class="highlight">Wafer Desktop!</span></h1>
+      <h3 class="sectiontitle">Note - This is only a concept, it will most likely never be a real desktop environment.</h3>
+      <h3 class="sectiontitle"><a href="https://brin.is-a.dev/gh?repo=wafer-desktop" class="highlight" target="_blank">Source Code</a></h3>
+    </div>
   </div>
 </template>
 
 <style>
 #welcomewindow {
-
+  
   position: absolute;
   top: calc(50% - 17.5rem);
   left: calc(50% - 25rem);
@@ -35,7 +37,6 @@ export default {
   height: 35rem;
   resize: both;
   overflow: auto;
-  padding: 3rem;
   box-sizing: border-box;
 
   background: #212121bf;
@@ -45,10 +46,12 @@ export default {
   border: 0.5px solid #ffffff1f;
   box-shadow: 0 5px 10px #000000af;
 
+}
+#content {
+  padding: 3rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 h1.windowheading {
   text-align: center;
