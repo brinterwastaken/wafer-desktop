@@ -1,11 +1,10 @@
 <template>
-  <h4>Dock icons are not my own. [src - <a href="https://macosicons.com" target="_blank">macosicons.com</a>]</h4>
+  <div class="menutext">Dock icons are not my own. (Source <a href="https://macosicons.com" target="_blank">MacOSicons.com</a>) Wallpaper designed by <a href="http://www.freepik.com">starline / Freepik</a></div>
 </template>
 
 <style>
-h4 {
+.menutext {
   color: white;
-  font-family: sans-serif;
   margin: 0 auto;
   text-align: center;
   width: 100vw;
@@ -17,7 +16,7 @@ h4 {
   z-index: 1;
   position: absolute;
 }
-h4 a {
+.menutext a {
   color: #00bfff;
 }
 </style>

@@ -92,7 +92,7 @@ export default {
   z-index: 1;
   bottom: 0.1rem;
   display: flex;
-  background: #212121aa;
+  background: #21212184;
   backdrop-filter: blur(25px);
   justify-content: center;
   padding: 0.25rem;

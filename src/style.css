@@ -1,5 +1,7 @@
+@import url(https://api.fontshare.com/v2/css?f[]=outfit@1&display=swap);
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -17,7 +19,7 @@
 
 body {
   margin: 0;
-  background: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=3840) no-repeat center center fixed;
+  background: url(./assets/wavy-flow-background.png) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   width: 100vw;
