@@ -55,7 +55,7 @@ export default {
 }
 
 #launchergrid {
-  margin: 5rem;
+  margin: 7rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -69,6 +69,7 @@ export default {
   align-items: center;
   padding-bottom: 0.7rem;
   border-radius: 2.25rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
   transition: background-color 100ms;
 }
 
@@ -77,8 +78,8 @@ export default {
 }
 
 #launchergrid img {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   margin-bottom: 0.25rem;
 }
 
