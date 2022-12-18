@@ -25,3 +25,20 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
+::-webkit-scrollbar {
+  border-radius: 0.5rem;
+  width: 0.75rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-corner {
+  background-color: none;
+}
+::-webkit-resizer {
+  background-color: none;
+}

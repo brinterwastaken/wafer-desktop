@@ -18,8 +18,11 @@ export default {
     <TitleBar :title="title" :bgcolor="bgcolor"/>
     <div id="content">
       <h1 class="windowheading">Welcome to <span class="highlight">Wafer Desktop!</span></h1>
+      <h2 class="sectiontitle"><span class="highlight">Wafer</span> is an online desktop with a beautiful user interface.</h2>
       <h3 class="sectiontitle">Note - This is only a concept, it will most likely never be a real desktop environment.</h3>
+      <h3 class="sectiontitle">Before you explore, enable fullscreen, and zoom out until the whole window fits the screen for the best experience</h3>
       <h3 class="sectiontitle"><a href="https://brin.is-a.dev/gh?repo=wafer-desktop" class="highlight" target="_blank">Source Code</a></h3>
+      <h3 class="sectiontitle"><a href="https://orangefalcon14.github.io/Nexion/" class="highlight" target="_blank">Similar Project</a></h3>
     </div>
   </div>
 </template>
@@ -59,9 +62,13 @@ h1.windowheading {
   cursor: default;
   font-weight: 500;
 }
+h2.sectiontitle {
+  font-weight: normal;
+  cursor: default;
+}
 h3.sectiontitle {
   text-align: center;
-  line-height: 150%;
+  line-height: 120%;
   cursor: default;
   font-weight: normal;
 }
